@@ -8,11 +8,14 @@ public class ThongTin {
         nhanVien1.setViTriCongTac("Kiểm thử phần mềm");
         nhanVien1.setGioiTinhNhanVien("Nữ");
 
-        System.out.println("Tên: "+nhanVien1.getTenNhanVien());
-        System.out.println("Tuổi: "+nhanVien1.getTuoiNhanVien());
-        System.out.println("Vị trí: "+nhanVien1.getViTriCongTac());
-        System.out.println("Giới tính: "+nhanVien1.getGioiTinhNhanVien());
+        NhanVien nhanVien2 = new NhanVien();
+        nhanVien2.setTenNhanVien("Bún");
+        nhanVien2.setTuoiNhanVien(3);
+        nhanVien2.setViTriCongTac("Kiểm thử phần mềm");
+        nhanVien2.setGioiTinhNhanVien("Nam");
 
-        System.out.println(nhanVien1.toString());
+        nhanVien1.showInfoNhanVien();
+        nhanVien2.showInfoNhanVien();
+
     }
 }

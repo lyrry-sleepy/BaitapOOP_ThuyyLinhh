@@ -13,4 +13,9 @@ public class BaseTest {
         System.out.println("======= Close Driver");
         System.out.println("Close browser: " + Constants.getBrowser());
     }
+
+    public void closeDriver(String browser){ // đa hình
+        System.out.println("======= Close Driver");
+        System.out.println("Close browser: " + browser);
+    }
 }

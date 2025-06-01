@@ -50,13 +50,10 @@ public class NhanVien {
         this.viTriCongTac = viTriCongTac;
     }
 
-    @Override
-    public String toString() {
-        return "NhanVien{" +
-                "tenNhanVien='" + tenNhanVien + '\'' +
-                ", tuoiNhanVien=" + tuoiNhanVien +
-                ", gioiTinhNhanVien='" + gioiTinhNhanVien + '\'' +
-                ", viTriCongTac='" + viTriCongTac + '\'' +
-                '}';
+    public void showInfoNhanVien(){
+        System.out.println("Tên: "+tenNhanVien);
+        System.out.println("Tuổi: "+tuoiNhanVien);
+        System.out.println("Vị trí: "+viTriCongTac);
+        System.out.println("Giới tính: "+gioiTinhNhanVien);
     }
 }

@@ -30,11 +30,11 @@ public class Person {
         return gender;
     }
 
-     String getAddress() {
+    protected String getAddress() {
         return address;
     }
 
-    String getPhone() {
+    protected String getPhone() {
         return phone;
     }
 }
